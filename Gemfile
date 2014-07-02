@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+#Use PostgreSQL for database
+gem 'pg'
+gem 'pry'
+gem 'pry-rails'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.1'
