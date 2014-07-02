@@ -1,7 +1,8 @@
 Rails.application.routes.draw do
-  root 'students#index'
+  root 'students#main'
   get '/students' => 'students#index'
   get '/student/:id' => 'students#show'
+  get '/main' => 'students#main'
 
 end
 
