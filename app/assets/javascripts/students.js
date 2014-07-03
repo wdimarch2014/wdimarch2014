@@ -8,9 +8,11 @@ $(window).load(function()
   		$( "#students" ).append( '<li>' + data[0]["name"] + '</li>' );  			
 		});
 
+   $(function() {
+    skrollr.init();
+   });
 
-
-
+  
 
 
 });  
