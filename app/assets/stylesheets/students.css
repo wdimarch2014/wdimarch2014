@@ -2,3 +2,9 @@
 	list-style-type: none;
 	display: inline;
 }
+
+#group_photo img {
+	max-height: 50%;
+	max-width: auto;
+	object-fit:cover;
+}
