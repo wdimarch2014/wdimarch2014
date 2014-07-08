@@ -26,9 +26,11 @@ $(window).load(function() {
   	 });
  		}
 
+   $(function() {
+    skrollr.init();
+   });
 
-
-
+  
 
 
 });  
