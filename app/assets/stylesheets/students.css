@@ -1,6 +1,4 @@
 
-
-
 * {
 		padding:0;
 		margin:0;
@@ -16,6 +14,7 @@
 
 	body {
 		font-family:sans-serif;
+		padding-top: 70px;
 	}
 
 	p {
@@ -113,14 +112,28 @@
    background: transparent;
 }
 
-body {
-	padding-top: 70px;
-}
 
 #skills {
 	list-style-type: none;
 	display: inline;
 }
+
+#students {
+	list-style-type: none;
+}
+
+.studentli {
+	padding: 0;
+	margin: 0;
+}
+
+.thumbnail {
+	border: 0 none;
+	box-shadow: none;
+}
+
+
+
 
 figure {
      display:block;
