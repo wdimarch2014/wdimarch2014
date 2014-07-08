@@ -1,7 +1,5 @@
-#skills {
-	list-style-type: none;
-	display: inline;
-}
+
+
 
 * {
 		padding:0;
@@ -110,6 +108,38 @@
 		height:100%;
 	}
 
+.navbar {
+   background-color: transparent;
+   background: transparent;
+}
 
+body {
+	padding-top: 70px;
+}
 
+#skills {
+	list-style-type: none;
+	display: inline;
+}
 
+figure {
+     display:block;
+     width:200px;
+     height:200px;
+     position:relative;
+     overflow:hidden;
+}
+ 
+figcaption {
+     display:block;
+     width:200px;
+     height:40px;
+     padding:10px;
+     position:absolute;
+     top:140px;
+     left:0;
+     color:#FFFFFF;
+     font:13px/20px Arial, sans-serif;
+     background:#000000;
+     background:rgba(0,0,0,.5);
+}
