@@ -15,8 +15,9 @@ $(window).load(function() {
 					project3: data[i]["project3"],
 					website: data[i]["website"],
    			}
-  			$( "#students" ).append( '<li class="studentli" id=' + '"' + data[i]["id"] + '"'  + '>' + data[i]["name"] + '</li>' );  			
+  			$( "#students" ).append( '<li class="studentli" id=' + '"' + data[i]["id"] + '"'  + '><figure><img src="/assets/' + data[i]["photo"] + '"><figcaption><p>' + data[i]["name"] + '</p></figcaption></figure></li>' );  			
 			}
+			hovereffect();
 			getinfo();
 		});
    
@@ -30,7 +31,13 @@ $(window).load(function() {
     skrollr.init();
    });
 
-  
+ var hovereffect =function(){ $('figcaption').css('top','600px');
+  $('figure').hover(function(){
+  $(this).find('figcaption').stop().animate({'top':'160px'}, 200, function(){});
+	},function(){
+  $(this).find('figcaption').stop().animate({'top':'200px'}, 200, function(){});
+	});
+}
 
 
 });  
