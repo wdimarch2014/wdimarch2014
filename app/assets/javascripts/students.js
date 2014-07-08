@@ -15,7 +15,7 @@ $(window).load(function() {
 					project3: data[i]["project3"],
 					website: data[i]["website"],
    			}
-  			$( "#students" ).append( '<li class="studentli" id=' + '"' + data[i]["id"] + '"'  + '><figure><img src="/assets/' + data[i]["photo"] + '"><figcaption><p>' + data[i]["name"] + '</p></figcaption></figure></li>' );  			
+  			$( "#students" ).append( '<div class="col-lg-2 col-sm-6 col-xs-12"><li class="studentli" id=' + '"' + data[i]["id"] + '"'  + '><figure><img src="/assets/' + data[i]["photo"] + '" class="thumbnail img-responsive"><figcaption><p>' + data[i]["name"] + '</p></figcaption></figure></li></div>' );  			
 			}
 			hovereffect();
 			getinfo();
