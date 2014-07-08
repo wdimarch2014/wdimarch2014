@@ -8,3 +8,22 @@
 	max-width: auto;
 	object-fit:cover;
 }
+
+body, html {
+	background: grey;
+	height: 110%;
+}
+
+.bg {
+	background:url("WDI_March_2014_group-435.jpg") no-repeat 50% 0;
+	height: 400px;
+	width: 1024px;
+	-moz-transition: all 0.3s ease-out;
+	-ms-transition: all 0.3s ease-out;
+	-o-transition: all 0.3s ease-out;
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3 ease-out;
+}
+
+
+
