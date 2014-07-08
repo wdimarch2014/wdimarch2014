@@ -1,54 +1,108 @@
 
-<button type="button" class="btn btn-default">Default</button>
-<button type="button" class="btn btn-primary">Primary</button>
+<div
+		class="parallax-image-wrapper parallax-image-wrapper-100"
+		data-anchor-target="#dragons + .gap"
+		data-bottom-top="transform:translate3d(0px, 200%, 0px)"
+		data-top-bottom="transform:translate3d(0px, 0%, 0px)">
+
+		<div
+			class="parallax-image parallax-image-100"
+			style="background-image:url(/assets/WDI_March_2014_group-435.jpg)"
+			data-anchor-target="#dragons + .gap"
+			data-bottom-top="transform: translate3d(0px, -80%, 0px);"
+			data-top-bottom="transform: translate3d(0px, 80%, 0px);"
+		></div>
+		<!--the +/-80% translation can be adjusted to control the speed difference of the image-->
+	</div>
+
+	<div
+		class="parallax-image-wrapper parallax-image-wrapper-100"
+		data-anchor-target="#bacons + .gap"
+		data-bottom-top="transform:translate3d(0px, 200%, 0px)"
+		data-top-bottom="transform:translate3d(0px, 0%, 0px)">
+
+		<div
+			class="parallax-image parallax-image-100"
+			style="background-image:url(/assets/sf_skyline.jpg)"
+			data-anchor-target="#bacons + .gap"
+			data-bottom-top="transform: translate3d(0px, -40%, 0px);"
+			data-top-bottom="transform: translate3d(0px, 40%, 0px);"
+		></div>
+	</div>
+
+	<div
+		class="parallax-image-wrapper parallax-image-wrapper-50"
+		data-anchor-target="#kittens + .gap"
+		data-bottom-top="transform:translate3d(0px, 300%, 0px)"
+		data-top-bottom="transform:translate3d(0px, 0%, 0px)">
+
+		<div
+			class="parallax-image parallax-image-50"
+			style="background-image:url(assets/computer_desk.jpg)"
+			data-anchor-target="#kittens + .gap"
+			data-bottom-top="transform: translate3d(0px, -60%, 0px);"
+			data-top-bottom="transform: translate3d(0px, 60%, 0px);"
+		></div>
+	</div>
+
+	<div id="skrollr-body">
+		<div class="header" id="dragons">
+			<h1>WDI March 2014</h1>
+		</div>
+		<div class="gap gap-100" style="background-image:url(../images/WDI_March_2014_group-435.jpg);"></div>
+		<div class="content" id="bacons">
+			<h2>Hire Us. Seriously.</h2>
+			<h3>We are really smart and we sort of know how to code so you should please give us money to break your codebase.</h3>
+				<ul id="skills">
+					<li><h4>Ruby on Rails</h4></li>
+						<ul>
+							<li>We know the ruby.</li>
+							<li>We use gems.</li>
+							<li>We never scaffold</li>
+						</ul>
+					<li><h4>Javascript</h4></li>
+						<ul>
+							<li>We can do jQuery things.</li>
+							<li>We know what AJAX stands for.</li>
+							<li>We sometimes pretend to know AngularJS.</li>
+						</ul>
+					<li><h4>HTML5 and CSS3</h4></li>
+						<ul>
+							<li>We use version numbers to sound more smarter.</li>
+							<li>We sometimes bootstrap.</li>
+							<li>It's a backend course, give us a break.</li>
+						</ul>
+				</ul>
+			<p></p>
+			<p></p>
+
+		</div>
+		<div class="gap gap-100" style="background-image:url(assets/sf_skyline.jpg);"></div>
+		<div class="content content-full" id="kittens">
+			<h3>Graduates</h3>
+				<ul id="students"></ul>
+		</div>
+		<div class="gap gap-50" style="background-image:url(assets/computer_desk.jpg);"></div>
+		<div class="content" id="done">
+			Images from <a href="http://placekitten.com/attribution.html">http://placekitten.com/</a>, thanks!
+		</div>
+	</div>
+
+	<script type="text/javascript" src="../dist/skrollr.min.js"></script>
+	<script type="text/javascript">
+	skrollr.init({
+		smoothScrolling: false,
+		mobileDeceleration: 0.004
+	});
+	</script>
 
 
 
-<h1>WDI March 2014</h1>
-	<div id="group_photo"><%= image_tag "WDI_March_2014_group-435.jpg" %></div>
-<div data-0="background-color:rgb(0,0,255);transform[bounce]:rotate(0deg);" data-top="background-color:rgb(255,0,0);transform[bounce]:rotate(360deg);"><h2>Hire Us. Seriously.</h2></div>
-<h3>We are really smart and we sort of know how to code so you should please give us money to break your codebase.</h3>
-<ul id="skills">
-	<li><h4>Ruby on Rails</h4></li>
-		<ul>
-			<li>We know the ruby.</li>
-			<li>We use gems.</li>
-			<li>We never scaffold</li>
-		</ul>
-	<li><h4>Javascript</h4></li>
-		<ul>
-			<li>We can do jQuery things.</li>
-			<li>We know what AJAX stands for.</li>
-			<li>We sometimes pretend to know AngularJS.</li>
-		</ul>
-	<li><h4>HTML5 and CSS3</h4></li>
-		<ul>
-			<li>We use version numbers to sound more smarter.</li>
-			<li>We sometimes bootstrap.</li>
-			<li>It's a backend course, give us a break.</li>
-		</ul>
-</ul>
 
-<h3>Graduates</h3>
-	<ul id="students" class="grid cs-style-4"></ul>
 
-<div id="skrollr-body">
+<div data-0="background-color:rgb(0,0,255);transform[bounce]:rotate(0deg);" data-top="background-color:rgb(255,0,0);transform[bounce]:rotate(360deg);">
 
-spacer<br>
-spacer<br>
-spacer<br>
-spacer<br>
-spacer<br>
-spacer<br>
-spacer<br>
-spacer<br>
-spacer<br>
-spacer<br>
-spacer<br>
-spacer<br>
-spacer<br>
-spacer<br>
-spacer<br>
-spacer<br>
-spacer<br>
-</div>
+	</div>
+				
+
+

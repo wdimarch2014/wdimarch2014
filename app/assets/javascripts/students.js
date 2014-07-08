@@ -28,7 +28,10 @@ $(window).load(function() {
  		}
 
    $(function() {
-    skrollr.init();
+      skrollr.init({
+        forceHeight: false,
+        smoothScrolling: false
+      });
    });
 
  var hovereffect =function(){ $('figcaption').css('top','600px');
