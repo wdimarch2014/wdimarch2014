@@ -8,3 +8,12 @@
 	max-width: auto;
 	object-fit:cover;
 }
+
+.navbar {
+   background-color: transparent;
+   background: transparent;
+}
+
+body {
+	padding-top: 70px;
+}
