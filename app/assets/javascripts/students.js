@@ -27,7 +27,10 @@ $(window).load(function() {
  		}
 
    $(function() {
-    skrollr.init();
+      skrollr.init({
+        forceHeight: false,
+        smoothScrolling: false
+      });
    });
 
   
