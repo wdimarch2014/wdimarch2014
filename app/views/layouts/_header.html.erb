@@ -1,36 +1,29 @@
-<div class="custom_nav">
-<div class="container">
-	<div class="row">
-		<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<!-- <a class="navbar-brand" href="/">General Assembly</a> -->
-				<a class="navbar-brand" rel="home" href="https://generalassemb.ly/" title="General Assembly">
-        <img style="max-width:300px; margin-top: -7px;"
-             src="/assets/GA.png"></a>
-			</div>
-			<div class="collapse navbar-collapse" id="collapse">
-				<ul class="nav navbar-nav navbar-right">
-					<li><a href="#">Ruby</a></li>
-					<li><a href="#">Rails</a></li>
-					<li><a href="#">Javascript</a></li>
-					<li><a href="#">Let's Make Love</a></li>
-				</ul>
-				<p class="navbar-text pull-left">
-			</div>
-		</nav>
-	</div>
-</div>
-</div>
 
-	<% if notice %>
-	  <p class="alert alert-success"><%= notice %></p>
-	<% end %>
-	<% if alert %>
-	  <p class="alert alert-danger"><%= alert %></p>
-	<% end %>
+	<div class="container">
+		<div class="row">
+			<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation" id="target_nav">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<!-- <a class="navbar-brand" href="/">General Assembly</a> -->
+					<a class="navbar-brand" rel="home" href="https://generalassemb.ly/" title="General Assembly">
+	        <img style="max-width:300px; margin-top: -7px;"
+	             src="/assets/GA.png"></a>
+				</div>
+				<div class="collapse navbar-collapse" id="collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#bacons">Technologies</a></li>
+						<li><a href="#kittens">Grads</a></li>
+						<li><a href="#">Projects</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+					<p class="navbar-text pull-left">
+				</div>
+			</nav>
+		</div>
+	</div>
+
