@@ -168,3 +168,23 @@ Student.create(name:"Shanna Hutchinson",
 	 project3:"",
 	 photo:"WDI_bw_Shanna.jpg")
 
+Student.create(name:"NO STUFF",
+	 bio:"",
+	 linkedin:"", 
+	 website:"",
+	 project1:"",
+	 project2:"",
+	 project3:"",
+	 photo:"WDI_bw_Blair.jpg")
+
+Student.create(name:"NO STUFF",
+	 bio:"",
+	 linkedin:"", 
+	 website:"",
+	 project1:"",
+	 project2:"",
+	 project3:"",
+	 photo:"WDI_bw_Antoine.jpg")
+
+
+
