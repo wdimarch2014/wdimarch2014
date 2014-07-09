@@ -109,12 +109,16 @@
 	}
 
 	#done {
+		height: 100%;
+	}
+
+	#projects {
 		height:100%;
 		margin-left: 15%;
 		margin-right: 15%;
 	}
 
-	#done .row {
+	#projects .row {
 		margin-bottom: 5%;
 	}
 
