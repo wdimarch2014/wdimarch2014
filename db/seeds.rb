@@ -1,3 +1,4 @@
+
 Student.create(name:"Taylor Chiu",
 	 bio:"I am passionate about education. I have taught English both in the US and abroad, at both private and public institutions. Most recently, I served as Program Coordinator for an online tutoring start-up.",
 	 github:"https://github.com/taylorchiu",
@@ -185,6 +186,4 @@ Student.create(name:"NO STUFF",
 	 project2:"",
 	 project3:"",
 	 photo:"WDI_bw_Antoine.jpg")
-
-
 
