@@ -29,16 +29,6 @@ Student.create(name:"David Korsunsky",
 	project3:"",
 	photo:"WDI_bw_Dave.jpg")
 
-Student.create(name:"Jozef Woroniecki",
-	bio:"Ran a non -profit for sustainability and taught computer literacy to at risk and underserved.  Was a chef and a scientist.....I have a huge curiosity, so once I am interested in something I pursue it to the end.",
-	github:"https://github.com/HydraJax?tab=repositories",
-	linkedin:"https://www.linkedin.com/profile/view?id=79932398&trk=nav_responsive_tab_profile",
-	website:"http://jozefwor.tumblr.com/",
-	project1:"",
-	project2:"",
-	project3:"",
-	photo:"grumpycat.jpg")
-
 Student.create(name:"Steven Miller",
 	bio:"Before coming to GA, I was attempting to build my own iOS app startup. When I realized that I wanted to learn to code websites/apps myself, I decided to apply to the WDI program.",
 	github:"https://github.com/stevenmiller888",
@@ -249,4 +239,15 @@ Student.create(name:"NO STUFF",
 	 project2:"",
 	 project3:"",
 	 photo:"WDI_bw_Matt.jpg")
+
+Student.create(name:"Jozef Woroniecki",
+	bio:"Ran a non -profit for sustainability and taught computer literacy to at risk and underserved.  Was a chef and a scientist.....I have a huge curiosity, so once I am interested in something I pursue it to the end.",
+	github:"https://github.com/HydraJax?tab=repositories",
+	linkedin:"https://www.linkedin.com/profile/view?id=79932398&trk=nav_responsive_tab_profile",
+	website:"http://jozefwor.tumblr.com/",
+	project1:"",
+	project2:"",
+	project3:"",
+	photo:"grumpycat.jpg")
+
 
