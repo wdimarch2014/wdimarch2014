@@ -134,6 +134,7 @@
 
 .thumbnail {
 	border: 0 none;
+	border-radius: 0;
 	box-shadow: none;
 }
 
@@ -172,17 +173,16 @@ figcaption {
     filter: alpha(opacity=50);
 }
 #modal {
+		max-width: 45%;
     position:absolute;
     background:url(tint20.png) 0 0 repeat;
     background:rgba(0,0,0,0.2);
-    border-radius:14px;
+    /*border-radius:14px;*/
     padding:8px;
 }
 
 #content {
-    border-radius:8px;
-    background:#fff;
-    padding:20px;
+    background:rgba(255,255,255, 0.8);
 }
 #close {
     position:absolute;
@@ -193,4 +193,30 @@ figcaption {
     text-indent:-9999px;
     top:-7px;
     right:-7px;
+}
+#studentname{
+	color: #F50717;
+	font-family: arial;
+	font-size: 18px;
+	text-align: center;
+}
+.modal-header{
+	max-height: 55px;
+}
+#modalheader{
+	background-color: rgba(245,7,23, 0.8);
+}
+#modalname{
+	text-align: center;
+	color: white;
+}
+#modalbio{
+	height:75px;
+	padding-left: 20px;
+	padding-right: 8px;
+}
+.modal-footer{
+	max-height: 55px;
+	text-align: center;
+	background-color:
 }

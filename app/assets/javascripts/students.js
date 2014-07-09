@@ -15,7 +15,7 @@ $(window).load(function() {
 					project3: data[i]["project3"],
 					website: data[i]["website"],
    			}
-  			$( "#students" ).append( '<div class="col-lg-2 col-sm-2 col-xs-12"><li class="studentli" id=' + '"' + data[i]["id"] + '"'  + '><figure><img src="/assets/' + data[i]["photo"] + '" class="thumbnail img-responsive"><figcaption><p>' + data[i]["name"] + '</p></figcaption></figure></li></div>' );  			
+  			$( "#students" ).append( '<div class="col-lg-2 col-sm-2 col-xs-12"><li class="studentli" id=' + '"' + data[i]["id"] + '"'  + '><figure><img src="/assets/' + data[i]["photo"] + '" class="thumbnail img-responsive"><figcaption id="studentname">' + data[i]["name"] + '</figcaption></figure></li></div>' );  			
 			}
 			hovereffect();
 			getinfo();
@@ -23,8 +23,8 @@ $(window).load(function() {
    
    var getinfo = function(){ $('.studentli').click(function(){
    		var current = students[this.id]
-   		modal.open({content: "<h3>" + current.name + "</h3><p>" + current.bio + "</p>" + 
-   		"<p><a href='" + current.linkedin + "'target=_blank>LinkedIn</a></p>" + "<p><a href='" + current.github + "'target=_blank>GitHub</a></p><p>" + current.project3 + "</p><p><a href='" + current.website + "'target=_blank>Personal Website</a></p>"  });
+   		modal.open({content: "<header class='modal-header' id='modalheader'><h4 id='modalname'>" + current.name + "</h4></header><p id='modalbio'>" + current.bio + "</p>" + 
+   		"<footer class='modal-footer'><a href='" +  current.linkedin + "'target=_blank>LinkedIn</a>" + ' | ' + "<a href='" + current.github + "'target=_blank>GitHub</a>" + ' | ' + current.project3 + "<a href='" + current.website + "'target=_blank>Personal Website</a></footer>"  });
   	 });
  		}
 
@@ -38,10 +38,10 @@ $(window).load(function() {
  	var hovereffect =function(){ $('figcaption').css('top','600px');
   	$('figure').hover(function(){
   		$(this).find('figcaption').stop().animate({'top':'160px'}, 200, function(){});
-			},function(){
+		},function(){
   			$(this).find('figcaption').stop().animate({'top':'200px'}, 200, function(){});
 			});
-		}	
+	}	
 
 
 			var modal = (function(){
