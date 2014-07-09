@@ -116,7 +116,21 @@
    background-color: transparent;
    background: transparent;
 }
+.affix {
+	background-color: black;
+  background: black;
+} 
 
+.affix-top {
+	background-color: transparent;
+  background: transparent;
+}
+
+.affix-bottom {
+	background-color: transparent;
+  background: transparent;
+  position: absolute;
+}
 
 #skills {
 	list-style-type: none;
