@@ -37,7 +37,7 @@ Student.create(name:"Jozef Woroniecki",
 	project1:"",
 	project2:"",
 	project3:"",
-	photo:"WDI_bw_Taylor.jpg")
+	photo:"grumpycat.jpg")
 
 Student.create(name:"Steven Miller",
 	bio:"Before coming to GA, I was attempting to build my own iOS app startup. When I realized that I wanted to learn to code websites/apps myself, I decided to apply to the WDI program.",
@@ -177,15 +177,6 @@ Student.create(name:"NO STUFF",
 	 project2:"",
 	 project3:"",
 	 photo:"WDI_bw_Blair.jpg")
-
-Student.create(name:"NO STUFF",
-	 bio:"",
-	 linkedin:"", 
-	 website:"",
-	 project1:"",
-	 project2:"",
-	 project3:"",
-	 photo:"WDI_bw_Antoine.jpg")
 
 Student.create(name:"NO STUFF",
 	 bio:"",
