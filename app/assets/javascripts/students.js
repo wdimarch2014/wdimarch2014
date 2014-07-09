@@ -24,7 +24,7 @@ $(window).load(function() {
    var getinfo = function(){ $('.studentli').click(function(){
    		var current = students[this.id]
    		modal.open({content: "<h3>" + current.name + "</h3><p>" + current.bio + "</p>" + 
-   		"<p><a href='" + current.linkedin + "'>LinkedIn</a></p>" + "<p><a href='" + current.github + "'>GitHub</a></p><p>" + current.project3 + "</p><p><a href='" + current.website + "''>Personal Website</a></p>"  });
+   		"<p><a href='" + current.linkedin + "'target=_blank>LinkedIn</a></p>" + "<p><a href='" + current.github + "'target=_blank>GitHub</a></p><p>" + current.project3 + "</p><p><a href='" + current.website + "'target=_blank>Personal Website</a></p>"  });
   	 });
  		}
 
