@@ -154,59 +154,57 @@
 
 
 figure {
-     display:block;
-     width:200px;
-     height:200px;
-     position:relative;
-     overflow:hidden;
+  display:block;
+  width:200px;
+  height:200px;
+  position:relative;
+  overflow:hidden;
 }
  
 figcaption {
-     display:block;
-     width:200px;
-     height:40px;
-     padding:10px;
-     position:absolute;
-     top:140px;
-     left:0;
-     color:#FFFFFF;
-     font:13px/20px Arial, sans-serif;
-     background:#000000;
-     background:rgba(0,0,0,.5);
+  display:block;
+  width:200px;
+  height:40px;
+  padding:10px;
+  position:absolute;
+  top:140px;
+  left:0;
+  color:#FFFFFF;
+  font:13px/20px Arial, sans-serif;
+  background:#000000;
+  background:rgba(0,0,0,.5);
 }
 
 /*Modal Css*/
 #overlay {
-    position: fixed; 
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #000;
-    opacity: 0.5;
-    filter: alpha(opacity=50);
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.5;
+  filter: alpha(opacity=50);
 }
 #modal {
-		max-width: 45%;
-    position:absolute;
-    background:url(tint20.png) 0 0 repeat;
-    background:rgba(0,0,0,0.2);
-    /*border-radius:14px;*/
-    padding:8px;
+  max-width: 45%;
+  position:absolute;
+  background:url(tint20.png) 0 0 repeat;
+  background:rgba(0,0,0,0.2)
+  padding:8px;
 }
-
 #content {
-    background:rgba(255,255,255, 0.8);
+  background:rgba(255,255,255, 0.8);
 }
 #close {
-    position:absolute;
-    background:url(close.png) 0 0 no-repeat;
-    width:24px;
-    height:27px;
-    display:block;
-    text-indent:-9999px;
-    top:-7px;
-    right:-7px;
+  position:absolute;
+  background:url(close.png) 0 0 no-repeat;
+  width:24px;
+  height:27px;
+  display:block;
+  text-indent:-9999px;
+  top:-7px;
+  right:-7px;
 }
 #studentname{
 	color: #F50717;
