@@ -233,7 +233,7 @@ figcaption {
 	text-align: center;
 }
 .modal-header{
-	max-height: 55px;
+	/*max-height: 55px;*/
 }
 #modalheader{
 	background-color: rgba(245,7,23, 0.8);
@@ -252,3 +252,4 @@ figcaption {
 	text-align: center;
 	background-color:
 }
+
