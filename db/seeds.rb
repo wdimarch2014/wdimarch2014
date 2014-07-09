@@ -3,7 +3,7 @@ Student.create(name:"Taylor Chiu",
 	 bio:"I am passionate about education. I have taught English both in the US and abroad, at both private and public institutions. Most recently, I served as Program Coordinator for an online tutoring start-up.",
 	 github:"https://github.com/taylorchiu",
 	 linkedin:"https://www.linkedin.com/in/taylorchiu", 
-	 website:"www.taylorparkerchiu.com",
+	 website:"http://www.taylorparkerchiu.com",
 	 project1:"",
 	 project2:"",
 	 project3:"",
@@ -111,7 +111,7 @@ Student.create(name:"Jason Kim",
 
 Student.create(name:"Dante Karlesimo",
 	 bio:"In 2008 I graduated from San Diego State University with a B.A. in Geography. However, the struggling economy lead me to a career in mortgage-finance where I started as Loan Processor and worked my way up to a Mortgage Consultant.",
-	 github:"www.github.com/dantecarlesimo",
+	 github:"http://www.github.com/dantecarlesimo",
 	 linkedin:"http://www.linkedin.com/in/dantecarlesimo", 
 	 website:"http://www.carlesimo.com",
 	 project1:"",
@@ -131,7 +131,7 @@ Student.create(name:"Joshua Pearson",
 
 Student.create(name:"Isaiah Bebb",
 	 bio:"Before GA I was an independent consultant in operations -- I improved business processes.  I had always been interested in coding, so when I hit a slow season I signed up for GA. I'm glad I did!",
-	 github:"github.com/bebb",
+	 github:"https://github.com/bebb",
 	 linkedin:"http://linkedin.com/in/ibebb/", 
 	 website:"http://isaiahbebb.com",
 	 project1:"",
@@ -186,4 +186,76 @@ Student.create(name:"NO STUFF",
 	 project2:"",
 	 project3:"",
 	 photo:"WDI_bw_Antoine.jpg")
+
+Student.create(name:"NO STUFF",
+	 bio:"",
+	 linkedin:"", 
+	 website:"",
+	 project1:"",
+	 project2:"",
+	 project3:"",
+	 photo:"WDI_bw_Jade.jpg")
+
+Student.create(name:"NO STUFF",
+	 bio:"",
+	 linkedin:"", 
+	 website:"",
+	 project1:"",
+	 project2:"",
+	 project3:"",
+	 photo:"WDI_bw_Rahul.jpg")
+
+Student.create(name:"NO STUFF",
+	 bio:"",
+	 linkedin:"", 
+	 website:"",
+	 project1:"",
+	 project2:"",
+	 project3:"",
+	 photo:"WDI_bw_Randy.jpg")
+
+Student.create(name:"NO STUFF",
+	 bio:"",
+	 linkedin:"", 
+	 website:"",
+	 project1:"",
+	 project2:"",
+	 project3:"",
+	 photo:"WDI_bw_Antoine.jpg")
+
+Student.create(name:"NO STUFF",
+	 bio:"",
+	 linkedin:"", 
+	 website:"",
+	 project1:"",
+	 project2:"",
+	 project3:"",
+	 photo:"WDI_bw_Shaker.jpg")
+
+Student.create(name:"NO STUFF",
+	 bio:"",
+	 linkedin:"", 
+	 website:"",
+	 project1:"",
+	 project2:"",
+	 project3:"",
+	 photo:"WDI_bw_Tim.jpg")
+
+Student.create(name:"NO STUFF",
+	 bio:"",
+	 linkedin:"", 
+	 website:"",
+	 project1:"",
+	 project2:"",
+	 project3:"",
+	 photo:"WDI_bw_Zoe.jpg")
+
+Student.create(name:"NO STUFF",
+	 bio:"",
+	 linkedin:"", 
+	 website:"",
+	 project1:"",
+	 project2:"",
+	 project3:"",
+	 photo:"WDI_bw_Matt.jpg")
 
