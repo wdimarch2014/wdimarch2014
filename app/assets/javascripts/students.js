@@ -15,17 +15,20 @@ $(window).load(function() {
 					project3: data[i]["project3"],
 					website: data[i]["website"],
    			}
+   			$( ".dropdown-menu" ).append('<li id="' + data[i]["id"] + '" class="indstudent">' + data[i]["name"] + '</li>');
   			$( "#students" ).append( '<div class="col-lg-2 col-sm-2 col-xs-12"><li class="studentli" id=' + '"' + data[i]["id"] + '"'  + '><figure><img src="/assets/' + data[i]["photo"] + '" class="thumbnail img-responsive"><figcaption id="studentname">' + data[i]["name"] + '</figcaption></figure></li></div>' );  			
 			}
 			hovereffect();
-			getinfo();
+			modalInfo('.indstudent');
+			modalInfo('.studentli');
 		});
-   
-   var getinfo = function(){ $('.studentli').click(function(){
+
+  	// Opens Modal Info with Student Info with correct html element passed
+		var modalInfo = function(element){ $(element).click(function(){
    		var current = students[this.id]
    		modal.open({content: "<header class='modal-header' id='modalheader'><h4 id='modalname'>" + current.name + "</h4></header><p id='modalbio'>" + current.bio + "</p>" + 
    		"<footer class='modal-footer'><a href='" +  current.linkedin + "'target=_blank>LinkedIn</a>" + ' | ' + "<a href='" + current.github + "'target=_blank>GitHub</a>" + ' | ' + current.project3 + "<a href='" + current.website + "'target=_blank>Personal Website</a></footer>"  });
-  	 });
+  		});
  		}
 
    $(function() {
@@ -35,7 +38,7 @@ $(window).load(function() {
       });
    });
 
- 	var hovereffect =function(){ $('figcaption').css('top','600px');
+ 	var hovereffect = function(){ $('figcaption').css('top','600px');
   	$('figure').hover(function(){
   		$(this).find('figcaption').stop().animate({'top':'160px'}, 200, function(){});
 		},function(){

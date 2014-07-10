@@ -165,7 +165,31 @@
 #students {
 	list-style-type: none;
 }
-
+#studentslist{
+	padding-left: 1.5em;
+	padding-right: 2em;
+	color: #999;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	cursor: pointer;
+}
+	#studentslist:hover{
+		color: rgba(245,7,23, 0.8);
+	}
+.dropdown-menu{
+	border-radius: 0;
+	background-color: rgba(0,0,0,.5);
+}
+.indstudent{
+	color: white;
+	border-bottom: 1px solid black;
+	text-align: center;
+	padding: 3px 13px;
+	cursor: pointer;
+}
+	.indstudent:hover{
+		color: rgba(245,7,23, 0.8);
+	}	
 .studentli {
 	padding: 0;
 	margin: 0;
@@ -175,7 +199,8 @@
 	border: 0 none;
 	padding: 0;
 	border-radius: 0;
-	box-shadow: none;
+	box-shadow: none; 
+	cursor: pointer;
 }
 
 figure {
@@ -261,6 +286,6 @@ figcaption {
 .modal-footer{
 	max-height: 55px;
 	text-align: center;
-	background-color:
+	/*background-color: rgba(0,0,0,.05);*/
 }
 
