@@ -227,6 +227,7 @@ figcaption {
 #content {
   background:rgba(255,255,255, 0.8);
 }
+
 #close {
   position:absolute;
   background:url(close.png) 0 0 no-repeat;

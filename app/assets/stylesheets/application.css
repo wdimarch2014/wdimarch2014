@@ -17,3 +17,17 @@
 
 
 
+#contact {
+	padding-top: 250px;
+	background: #232121;
+	min-height: 100%;
+}
+
+#done {
+	background-color: red;
+	height: 150%;
+}
+
+#projects {
+	min-height: 100%;
+}
