@@ -132,7 +132,8 @@
 	}
 
 	#done {
-		height: 100%;
+		height: 140%;
+		/*height: 100%;*/
 	}
 
 	#projects h3 {
@@ -279,6 +280,7 @@ figcaption {
 #content {
   background:rgba(255,255,255, 0.8);
 }
+
 #close {
   position:absolute;
   background:url(close.png) 0 0 no-repeat;
@@ -314,5 +316,14 @@ figcaption {
 	max-height: 55px;
 	text-align: center;
 	/*background-color: rgba(0,0,0,.05);*/
+}
+
+#contact {
+	padding-top: 40px;
+	padding-bottom: 50px;
+	background: black;
+	text-align: center;
+	color: red;
+	width: 100% !important;
 }
 
