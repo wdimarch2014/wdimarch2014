@@ -35,7 +35,6 @@
 
 	h3 {
 		font-family: 'Track';
-		text-align: center;
 	}
 
 	h4 {
@@ -136,14 +135,18 @@
 		height: 100%;
 	}
 
+	#projects h3 {
+		margin-left: 0 !important;
+	}
+
 	#projects {
 		height:100%;
-		margin-left: 15%;
-		margin-right: 15%;
 	}
 
 	#projects .row {
 		margin-bottom: 5%;
+		margin-left: 15%;
+		margin-right: 15%;
 	}
 
 	#projects img {
