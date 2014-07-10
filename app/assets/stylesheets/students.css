@@ -109,7 +109,8 @@
 	}
 
 	#done {
-		height: 100%;
+		height: 140%;
+		/*height: 100%;*/
 	}
 
 	#projects {
@@ -263,5 +264,14 @@ figcaption {
 	max-height: 55px;
 	text-align: center;
 	background-color:
+}
+
+#contact {
+	padding-top: 40px;
+	padding-bottom: 50px;
+	background: black;
+	text-align: center;
+	color: red;
+	width: 100% !important;
 }
 
