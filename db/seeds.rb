@@ -178,9 +178,10 @@ Student.create(name:"NO STUFF",
 	 photo:"WDI_bw_Jade.jpg")
 
 Student.create(name:"NO STUFF",
-	 bio:"",
-	 linkedin:"", 
-	 website:"",
+	 bio:"I am creative, energetic, and a problem solver.  I joined GA because I wanted to learn how to build great products.  Previously, I started my own social media company (Staance.com) and worked in the entertainment industry at Warner Bros.",
+	 linkedin:"http://www.linkedin.com/in/sociallyRK", 
+	 website:"http://www.sociallyrk.com/",
+	 github: "http://www.github.com/sociallyRK",
 	 project1:"",
 	 project2:"",
 	 project3:"",
@@ -221,15 +222,6 @@ Student.create(name:"NO STUFF",
 	 project2:"",
 	 project3:"",
 	 photo:"WDI_bw_Tim.jpg")
-
-Student.create(name:"NO STUFF",
-	 bio:"",
-	 linkedin:"", 
-	 website:"",
-	 project1:"",
-	 project2:"",
-	 project3:"",
-	 photo:"WDI_bw_Zoe.jpg")
 
 Student.create(name:"NO STUFF",
 	 bio:"",
