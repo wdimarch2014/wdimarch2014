@@ -16,5 +16,4 @@
 //= require skrollr
 //= require skrollr.ie
 //= require skrollr.menu
-//= require turbolinks
 //= require_tree .
