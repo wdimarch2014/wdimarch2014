@@ -159,13 +159,13 @@ Student.create(name:"Shanna Hutchinson",
 	 project3:"",
 	 photo:"WDI_bw_Shanna.jpg")
 
-Student.create(name:"NO STUFF",
-	 bio:"",
-	 linkedin:"", 
-	 website:"",
+Student.create(name:"Blair Cuny",
+	 bio:"I worked in clinical research that focused on preventative health, then moved into sales operations and order management roles. I completed WDI to learn new technologies and set myself up for a fulfilling and challenging career. ",
+	 linkedin:"https://www.linkedin.com/profile/view?id=24280379", 
+	 website:"http://blairprophett.tumblr.com/",
 	 project1:"",
-	 project2:"",
-	 project3:"",
+	 project2:"https://github.com/blairprophett/PairedCodingApp",
+	 project3:"https://github.com/blairprophett/dogEdating2.0",
 	 photo:"WDI_bw_Blair.jpg")
 
 Student.create(name:"NO STUFF",
